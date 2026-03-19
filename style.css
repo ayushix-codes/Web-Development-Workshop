@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 
-/* BODY */
 body {
     font-family: 'Times New Roman', Times, serif;
     background: #f8f9fc;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -41,7 +39,6 @@ body {
     color: #e26a00;
 }
 
-/* FORM CONTAINER */
 .form-container {
     max-width: 900px;
     margin: 50px auto;
@@ -50,19 +47,16 @@ body {
     border-radius: 10px;
 }
 
-/* ROW (2-COLUMN LAYOUT) */
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-/* FORM GROUP */
 .form-group {
     margin-bottom: 20px;
 }
 
-/* LABEL */
 label {
     display: block;
     font-weight: 600;
@@ -73,7 +67,6 @@ label span {
     color: red;
 }
 
-/* INPUTS */
 input,
 select,
 textarea {
@@ -86,20 +79,17 @@ textarea {
     background: #fff;
 }
 
-/* FOCUS EFFECT */
 input:focus,
 select:focus,
 textarea:focus {
     border-color: #4f46e5;
 }
 
-/* TEXTAREA */
 textarea {
     height: 120px;
     resize: none;
 }
 
-/* BUTTON */
 .submit-btn {
     width: 100%;
     padding: 16px;
@@ -118,14 +108,12 @@ textarea {
     background: #c95d00;
 }
 
-/* FOOTER MAIN */
 .footer {
     background: #0a0f2c;
     color: #ffffff;
     margin-top: 50px;
 }
 
-/* CONTAINER */
 .footer-container {
     max-width: 1100px;
     margin: auto;
@@ -136,7 +124,6 @@ textarea {
     gap: 30px;
 }
 
-/* SECTIONS */
 .footer-section h3 {
     font-size: 22px;
     margin-bottom: 15px;
@@ -153,7 +140,6 @@ textarea {
     color: #ccc;
 }
 
-/* LISTS */
 .footer-section ul {
     list-style: none;
 }
@@ -162,7 +148,6 @@ textarea {
     margin-bottom: 10px;
 }
 
-/* LINKS */
 .footer-section a {
     text-decoration: none;
     color: #ccc;
@@ -172,10 +157,9 @@ textarea {
 
 .footer-section a:hover {
     color: #e26a00;
-    padding-left: 5px; /* small animation */
+    padding-left: 5px; 
 }
 
-/* BOTTOM BAR */
 .footer-bottom {
     text-align: center;
     padding: 15px;
