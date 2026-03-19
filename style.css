@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #f8f9fc;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e4e5e9;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #0e0b0b;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e26a00;
+}
+
+/* FORM CONTAINER */
+.form-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #f1f3f7;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* ROW (2-COLUMN LAYOUT) */
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* FORM GROUP */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* LABEL */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+label span {
+    color: red;
+}
+
+/* INPUTS */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    background: #fff;
+}
+
+/* FOCUS EFFECT */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #4f46e5;
+}
+
+/* TEXTAREA */
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* BUTTON */
+.submit-btn {
+    width: 100%;
+    padding: 16px;
+    background: #e26a00;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #c95d00;
+}
+
+/* FOOTER MAIN */
+.footer {
+    background: #0a0f2c;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+/* CONTAINER */
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* SECTIONS */
+.footer-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* LISTS */
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+/* LINKS */
+.footer-section a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #e26a00;
+    padding-left: 5px; /* small animation */
+}
+
+/* BOTTOM BAR */
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #2a2f55;
+    font-size: 14px;
+    color: #aaa;
+}
